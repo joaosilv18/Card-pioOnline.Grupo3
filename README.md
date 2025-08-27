@@ -25,12 +25,12 @@ Códigos Iniciais para compreendimento da Ideia do Projeto nos links abaixo:
 - **[Menu](file:///C:/Users/User/Downloads/Nova%20pasta/Cardapio/ProjetoCardapio/menuNav.html)**
 - **[Adicionar Prato](file:///C:/Users/User/Downloads/Nova%20pasta/Cardapio/ProjetoCardapio/gerenciarPaginaspag3.html)**
 
-# 📌Entregas 
-## Primeira entrega (01/09/2025) 
+## 📌Entregas 
+### Primeira entrega (01/09/2025) 
 * Repositório criado e documentado;
 * Estrutura inicial do código (HTML + CSS esqueleto). 
 
-## Segunda entrega (25/09/2025) 
+### Segunda entrega (25/09/2025) 
 * Projeto finalizado, responsivo e publicado;
 * Envio do repositório atualizado + arquivo compactado.
 
