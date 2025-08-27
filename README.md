@@ -5,7 +5,7 @@ Nosso projeto consiste no desenvolvimento de um **Cardápio Online em formato de
 ## 🎯Objetivo
 O objetivo é proporcionar uma **Experiência Dinâmica e Envolvente**, facilitando tanto a navegação do cliente quanto a gestão dos itens do cardápio. A proposta é unir tecnologia e funcionalidade para transformar a maneira como os estabelecimentos apresentam seus produtos, tornando o acesso rápido, prático e totalmente digital.  
 
-## Estrutura Inicial (Escopo)
+## 📝Estrutura Inicial (Escopo)
 O site será composto por 4 páginas (seções):
 * Área para Login;
 * Menu (Adicionar Prato);
