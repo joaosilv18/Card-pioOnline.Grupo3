@@ -20,10 +20,8 @@ O site será composto por 4 páginas (seções):
 * Ferramentas de inspeção (F12) para testes de responsividade. 
 
 ## 🔗Visualização: Página de Login, Menu e Adicionar Prato
-Códigos Iniciais para compreendimento da Ideia do Projeto nos links abaixo:  
-- **[Área para Login](file:///C:/Users/User/Downloads/Nova%20pasta/Cardapio/ProjetoCardapio/cardapio.html)**
-- **[Menu](file:///C:/Users/User/Downloads/Nova%20pasta/Cardapio/ProjetoCardapio/menuNav.html)**
-- **[Adicionar Prato](file:///C:/Users/User/Downloads/Nova%20pasta/Cardapio/ProjetoCardapio/gerenciarPaginaspag3.html)**
+Códigos Iniciais para compreendimento da Ideia do Projeto no link abaixo:  
+- **[Clique Aqui](https://drive.google.com/drive/folders/1SqaqlblYAK4CmZHDseXnENl-ddoCajkR?usp=sharing)**
 
 ## 📌Entregas 
 ### Primeira entrega (01/09/2025) 
