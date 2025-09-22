@@ -1,0 +1,313 @@
+/* --- ESTILOS GERAIS E RESET --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0; /* Removido o padding para o container principal em telas pequenas */
+}
+
+/* --- ESTILOS PARA LOGIN E REGISTRO --- */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.auth-box {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+}
+
+.auth-box h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.auth-box p {
+    color: #666;
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.form-group-checkbox {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.form-group-checkbox input {
+    width: auto;
+    margin-right: 0.5rem;
+    height: 1.2em;
+    width: 1.2em;
+}
+
+.form-group-checkbox label {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary { background-color: #007bff; }
+.btn-primary:hover { background-color: #0056b3; }
+
+.btn-success { background-color: #28a745; }
+.btn-success:hover { background-color: #218838; }
+
+.auth-link {
+    margin-top: 1.5rem;
+}
+.auth-link a {
+    color: #007bff;
+    text-decoration: none;
+}
+.auth-link a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    color: #dc3545;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.success-message {
+    color: #28a745;
+    font-size: 0.9rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* --- HEADER / CABEÇALHO --- */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    padding: 1rem 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+header .welcome-text {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+header .nav-links a {
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    color: #007bff;
+}
+header .nav-links a.logout-btn {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+header .nav-links a.logout-btn:hover {
+    background-color: #c82333;
+}
+
+/* --- PAINEL ADMIN --- */
+.admin-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Padrão de 1 coluna (mobile) */
+    gap: 2rem;
+}
+
+.admin-section {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.admin-section h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.dish-list .dish-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.dish-item .dish-info {
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Evita que texto longo quebre o layout */
+}
+
+.dish-item img {
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 1rem;
+    flex-shrink: 0;
+}
+
+.dish-item h3 { font-size: 1.1rem; font-weight: 700; }
+.dish-item p { color: #666; font-size: 0.9rem; }
+
+.dish-actions { display: flex; align-items: center; gap: 1rem; flex-shrink: 0; }
+.dish-actions .status { font-size: 0.8rem; padding: 0.25rem 0.75rem; border-radius: 99px; font-weight: 600; text-decoration: none; white-space: nowrap; }
+.status.active { background-color: #eaf7f0; color: #28a745; }
+.status.inactive { background-color: #fff8e1; color: #ffc107; }
+.dish-actions .remove-btn { color: #dc3545; }
+
+
+/* --- PÁGINA DO MENU PÚBLICO --- */
+.menu-header {
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+.menu-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Padrão de 1 coluna (mobile) */
+    gap: 2rem;
+}
+
+.menu-card {
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.menu-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.menu-card .card-content {
+    padding: 1.5rem;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-card h3 { font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; }
+.menu-card .price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #28a745;
+    margin-top: auto; /* Empurra o preço para baixo */
+    text-align: right;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* --- RESPONSIVIDADE (A MÁGICA ACONTECE AQUI!) --- */
+
+@media (min-width: 768px) {
+    .container {
+        padding: 1rem; /* Adiciona padding de volta em telas maiores */
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas */
+    }
+}
+
+@media (min-width: 1024px) {
+    .admin-grid {
+        grid-template-columns: 1fr 2fr; /* Divide o admin em 1/3 e 2/3 */
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+    }
+}
+
+@media (min-width: 1280px) {
+    .menu-grid {
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    }
+}
+
