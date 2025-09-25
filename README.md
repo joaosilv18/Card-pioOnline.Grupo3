@@ -21,7 +21,7 @@ O site será composto por 3 páginas (seções):
 
 ## 🔗Visualização: Página de Login, Menu e Adicionar Prato
 Códigos Iniciais para compreendimento da Ideia do Projeto no link abaixo:  
-- **[Clique Aqui](https://www.cardapiogrupo3.infinityfreeapp.com/)**
+- **[Clique Aqui](https://cardapiogrupo3.infinityfreeapp.com/)**
 ## 📌Entregas 
 ### Primeira entrega (01/09/2025) 
 * Repositório criado e documentado;
