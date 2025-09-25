@@ -19,9 +19,11 @@ O site será composto por 3 páginas (seções):
 * Ferramentas de inspeção (F12) para testes de responsividade;
 * PHP → linguagem de programação.
 
-## 🔗Visualização: Página de Login, Menu e Adicionar Prato
-Códigos Iniciais para compreendimento da Ideia do Projeto no link abaixo:  
-- **[Clique Aqui](https://cardapiogrupo3.infinityfreeapp.com/)**
+## 🔗Visualização: Cardapio Online Web Responsivo
+Para abrir o site e, os codigos onde é possível visualizar as mudanças no Projeto acesse: 
+- **[Cardapio Online;](https://cardapiogrupo3.infinityfreeapp.com/)**
+- **[Códigos.](https://drive.google.com/drive/folders/1SqaqlblYAK4CmZHDseXnENl-ddoCajkR)**
+  
 ## 📌Entregas 
 ### Primeira entrega (01/09/2025) 
 * Repositório criado e documentado;
